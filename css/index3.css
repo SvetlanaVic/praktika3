@@ -1,0 +1,41 @@
+html, body{
+margin: auto;
+width: 900px;
+text-align: center;
+}
+
+fieldset, .head,  .out{
+    margin: 0 auto;
+    width: 90%;
+    border: 1px solid black;
+    border-radius: 30px;
+}
+
+fieldset, .out, .head{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.field{
+    border-radius: 5px;
+    font-size: 24px;
+}
+
+label{
+    display: inline-block;
+    width: 300px;
+}
+
+input{
+    margin-bottom: 10px;
+}
+
+.button{
+    background-color: orchid;
+    font-size: 24px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 4px;
+    margin-top: 10px;
+}
